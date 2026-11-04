@@ -1,0 +1,133 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Palette neutra: bianco, grigi ardesia, un accento ardesia scuro. Rosso solo per il pericolo e le scadenze. */
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+  --card: #ffffff;
+  --card-foreground: #111827;
+  --popover: #ffffff;
+  --popover-foreground: #111827;
+  --primary: #334155;
+  --primary-chiaro: #4b5d75;
+  --primary-foreground: #ffffff;
+  --secondary: #f5f6f8;
+  --secondary-foreground: #111827;
+  --muted: #f5f6f8;
+  --muted-foreground: #5e5e5e;
+  --accent: #eef1f5;
+  --accent-foreground: #1e293b;
+  --destructive: #b42318;
+  --border: #e4e7eb;
+  --input: #d8dce2;
+  --ring: #334155;
+  --radius: 1.25rem;
+  /* colori per categoria e stati */
+  --crema: #f8fafc;
+  --oliva: #6c7b3e;
+  --oliva-chiaro: #eff1e6;
+  --oliva-scuro: #4f5a2c;
+  --blu: #4f72bc;
+  --blu-chiaro: #edf1f9;
+  --blu-scuro: #34508c;
+  --viola: #795da5;
+  --viola-chiaro: #f2eef8;
+  --viola-scuro: #5a4380;
+  --scadenza: #b42318;
+  --pericolo: #b42318;
+  --pericolo-chiaro: #d92d20;
+}
+
+@theme inline {
+  --font-sans: "DM Sans Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-sans);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --color-primary-chiaro: var(--primary-chiaro);
+  --color-crema: var(--crema);
+  --color-blu: var(--blu);
+  --color-blu-chiaro: var(--blu-chiaro);
+  --color-viola: var(--viola);
+  --color-viola-chiaro: var(--viola-chiaro);
+  --color-oliva: var(--oliva);
+  --color-oliva-scuro: var(--oliva-scuro);
+  --color-blu-scuro: var(--blu-scuro);
+  --color-viola-scuro: var(--viola-scuro);
+  --color-oliva-chiaro: var(--oliva-chiaro);
+  --color-scadenza: var(--scadenza);
+  --color-pericolo: var(--pericolo);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.25);
+  --radius-2xl: calc(var(--radius) * 1.5);
+  --radius-3xl: calc(var(--radius) * 2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+/* Pulsante principale: sfumatura ardesia. */
+@utility bg-primario {
+  background-image: linear-gradient(in oklab, var(--primary) 0%, var(--primary-chiaro) 100%);
+}
+
+/* Pericolo per le persone: rosso pieno. */
+@utility bg-pericolo {
+  background-image: linear-gradient(in oklab, var(--pericolo) 0%, var(--pericolo-chiaro) 100%);
+}
+
+/* Ombra morbida delle schede. */
+@utility ombra-scheda {
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.08);
+}
+
+/* Il messaggio gestito viene barrato con una linea ardesia, riga per riga. */
+.barra {
+  background-image: linear-gradient(var(--primary), var(--primary));
+  background-repeat: no-repeat;
+  background-position: 0 58%;
+  background-size: 0% 2px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  transition: background-size 450ms cubic-bezier(0.2, 0.7, 0.2, 1), color 300ms;
+}
+.barra[data-barrata="true"] {
+  background-size: 100% 2px;
+  color: var(--muted-foreground);
+}
+@media (prefers-reduced-motion: reduce) {
+  .barra {
+    transition: none;
+  }
+}

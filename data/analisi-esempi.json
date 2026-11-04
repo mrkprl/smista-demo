@@ -1,0 +1,350 @@
+{
+  "generatoIl": "2026-10-19T21:39:51.638Z",
+  "modello": "claude-sonnet-5-5",
+  "origine": "ai",
+  "analisi": {
+    "m01": {
+      "categoria": "sinistro",
+      "sottotipo": "danni da acqua",
+      "urgenza": "alta",
+      "motivo_urgenza": "Allagamento con infiltrazioni nell'appartamento del vicino di sotto, danno già in corso da stanotte.",
+      "pericolo_persone": false,
+      "intervento_assistenza": true,
+      "tipo_intervento": "idraulico",
+      "istruzioni_sospette": false,
+      "dati_estratti": {
+        "nome": null,
+        "numero_polizza": "CA-48213",
+        "indirizzo": null,
+        "data_evento": "stanotte",
+        "descrizione": "Rottura del tubo sotto il lavello, pavimento allagato e gocciolamento dal soffitto del vicino di sotto. Il cliente ha chiuso l'acqua."
+      },
+      "dati_mancanti": [
+        "indirizzo dell'immobile",
+        "nome e cognome",
+        "recapito telefonico"
+      ],
+      "prossimo_passo": "Aprire il sinistro per danni da acqua, inviare un idraulico e avvisare che il vicino di sotto ha subito danni.",
+      "bozza_risposta": "Buongiorno,\nci dispiace per l'accaduto. Hai fatto bene a chiudere l'acqua.\nAbbiamo preso in carico la tua segnalazione sulla polizza CA-48213 e apriamo la pratica di sinistro. Facciamo intervenire un idraulico.\nPer procedere ci servono:\n- indirizzo dell'immobile\n- nome e cognome\n- un recapito telefonico\nNel frattempo, se puoi, asciuga l'acqua dal pavimento e scatta qualche foto dei danni nel tuo appartamento e in quello del vicino. Le foto serviranno per la pratica.\nLe condizioni della polizza saranno verificate da chi gestisce i sinistri, che ti contatterà.\nIl team assistenza",
+      "lingua": "it",
+      "confidenza": "alta"
+    },
+    "m02": {
+      "categoria": "assistenza",
+      "sottotipo": "fabbro",
+      "urgenza": "alta",
+      "motivo_urgenza": "La cliente è chiusa fuori casa con le chiavi dentro.",
+      "pericolo_persone": false,
+      "intervento_assistenza": true,
+      "tipo_intervento": "fabbro_falegname",
+      "istruzioni_sospette": false,
+      "dati_estratti": {
+        "nome": null,
+        "numero_polizza": null,
+        "indirizzo": "via Nizza 112, Torino",
+        "data_evento": null,
+        "descrizione": "La cliente è rimasta chiusa fuori casa con le chiavi dentro e chiede l'invio di un fabbro."
+      },
+      "dati_mancanti": [
+        "nome e cognome",
+        "numero di polizza",
+        "numero di telefono per essere contattata"
+      ],
+      "prossimo_passo": "Inviare un fabbro in via Nizza 112 a Torino e contattare la cliente per completare i dati.",
+      "bozza_risposta": "Ciao, grazie per averci scritto. Abbiamo preso in carico la tua richiesta di un fabbro in via Nizza 112 a Torino. Per procedere ci servono questi dati: nome e cognome, numero di polizza e un numero di telefono su cui contattarti. Ci confermi anche che sei davanti al portone di casa? Appena abbiamo i dati, organizziamo l'intervento. Il team assistenza",
+      "lingua": "it",
+      "confidenza": "alta"
+    },
+    "m03": {
+      "categoria": "modifica_polizza",
+      "sottotipo": "cambio indirizzo e metratura",
+      "urgenza": "bassa",
+      "motivo_urgenza": "Modifica futura della polizza, nessun danno né pericolo in corso.",
+      "pericolo_persone": false,
+      "intervento_assistenza": false,
+      "tipo_intervento": "nessuno",
+      "istruzioni_sospette": false,
+      "dati_estratti": {
+        "nome": null,
+        "numero_polizza": null,
+        "indirizzo": "Bologna (nuova casa, indirizzo completo non indicato)",
+        "data_evento": "1° dicembre",
+        "descrizione": "Il cliente si trasferisce a Bologna dal 1° dicembre e chiede di spostare la polizza sulla nuova casa, di 95 mq."
+      },
+      "dati_mancanti": [
+        "nome",
+        "numero di polizza",
+        "indirizzo completo della nuova casa"
+      ],
+      "prossimo_passo": "Raccogliere i dati mancanti e avviare la modifica di indirizzo e metratura sulla polizza con effetto dal 1° dicembre.",
+      "bozza_risposta": "Buongiorno, grazie per averci scritto. Possiamo valutare la modifica della polizza per la nuova casa a Bologna. Per procedere ci servono questi dati: il tuo nome e cognome, il numero di polizza e l'indirizzo completo della nuova casa. Ci confermi anche che i 95 mq sono la superficie dell'abitazione? Ti aggiorneremo sulle condizioni della polizza dopo le verifiche. Il team assistenza",
+      "lingua": "it",
+      "confidenza": "alta"
+    },
+    "m04": {
+      "categoria": "domanda_copertura",
+      "sottotipo": "furto bici elettrica in cantina",
+      "urgenza": "bassa",
+      "motivo_urgenza": "Richiesta di informazioni su una possibile copertura, nessun danno in corso.",
+      "pericolo_persone": false,
+      "intervento_assistenza": false,
+      "tipo_intervento": "nessuno",
+      "istruzioni_sospette": false,
+      "dati_estratti": {
+        "nome": null,
+        "numero_polizza": null,
+        "indirizzo": null,
+        "data_evento": null,
+        "descrizione": "Il cliente chiede se la polizza copre il furto della bici elettrica tenuta in cantina."
+      },
+      "dati_mancanti": [
+        "nome",
+        "numero di polizza"
+      ],
+      "prossimo_passo": "Verificare le condizioni della polizza del cliente (furto, beni in cantina, biciclette elettriche) e rispondere.",
+      "bozza_risposta": "Buongiorno,\ngrazie per la sua domanda. Verificheremo le condizioni della sua polizza riguardo al furto della bici elettrica tenuta in cantina e le risponderemo.\nPer farlo ci servono il suo nome e il numero di polizza. Può inviarceli?\nCordiali saluti,\nIl team assistenza",
+      "lingua": "it",
+      "confidenza": "alta"
+    },
+    "m05": {
+      "categoria": "pagamenti",
+      "sottotipo": "addebito doppio",
+      "urgenza": "media",
+      "motivo_urgenza": "Addebito doppio della rata di ottobre, problema reale ma non in peggioramento.",
+      "pericolo_persone": false,
+      "intervento_assistenza": false,
+      "tipo_intervento": "nessuno",
+      "istruzioni_sospette": false,
+      "dati_estratti": {
+        "nome": null,
+        "numero_polizza": null,
+        "indirizzo": null,
+        "data_evento": "il 3 e il 4 (ottobre)",
+        "descrizione": "Il cliente segnala che la rata di ottobre è stata addebitata due volte, il 3 e il 4, e chiede la restituzione dell'importo in più."
+      },
+      "dati_mancanti": [
+        "nome e cognome",
+        "numero di polizza"
+      ],
+      "prossimo_passo": "Verificare i due addebiti della rata di ottobre sulla polizza del cliente e passare la richiesta all'ufficio pagamenti per la gestione dell'eventuale restituzione.",
+      "bozza_risposta": "Buongiorno,\n\ngrazie per averci scritto. Ci dispiace per l'inconveniente.\n\nVerificheremo i due addebiti della rata di ottobre (3 e 4 ottobre) e le faremo sapere l'esito.\n\nPer procedere ci servono questi dati:\n- nome e cognome dell'intestatario della polizza\n- numero di polizza\n\nLe scriviamo appena abbiamo controllato.\n\nIl team assistenza",
+      "lingua": "it",
+      "confidenza": "alta"
+    },
+    "m06": {
+      "categoria": "reclamo",
+      "sottotipo": "ritardo nella gestione del sinistro",
+      "urgenza": "alta",
+      "motivo_urgenza": "Reclamo per mancata risposta con minaccia di rivolgersi all'IVASS entro la settimana.",
+      "pericolo_persone": false,
+      "intervento_assistenza": false,
+      "tipo_intervento": "nessuno",
+      "istruzioni_sospette": false,
+      "dati_estratti": {
+        "nome": null,
+        "numero_polizza": null,
+        "indirizzo": null,
+        "data_evento": "settembre",
+        "descrizione": "Il cliente ha scritto tre volte riguardo a un sinistro di settembre senza ricevere risposta e minaccia di scrivere all'IVASS se non ha notizie entro la settimana."
+      },
+      "dati_mancanti": [
+        "nome e cognome",
+        "numero di polizza",
+        "numero o riferimento del sinistro",
+        "indirizzo dell'immobile"
+      ],
+      "prossimo_passo": "Girare all'ufficio reclami e far verificare subito lo stato del sinistro di settembre, contattando il cliente entro la settimana.",
+      "bozza_risposta": "Gentile cliente,\nci scusiamo per il mancato riscontro alle sue precedenti comunicazioni. Abbiamo preso in carico la sua segnalazione e la stiamo girando all'ufficio competente, perché verifichi subito lo stato della sua pratica.\nPer ritrovare il sinistro più in fretta, può inviarci questi dati?\n- nome e cognome\n- numero di polizza\n- numero del sinistro, se lo ha\n- indirizzo dell'immobile\nLa terremo aggiornata appena avremo notizie.\nIl team assistenza",
+      "lingua": "it",
+      "confidenza": "alta"
+    },
+    "m07": {
+      "categoria": "disdetta",
+      "sottotipo": "vendita dell'immobile",
+      "urgenza": "media",
+      "motivo_urgenza": "Richiesta di disdetta della polizza per vendita della casa, nessun pericolo in corso.",
+      "pericolo_persone": false,
+      "intervento_assistenza": false,
+      "tipo_intervento": "nessuno",
+      "istruzioni_sospette": false,
+      "dati_estratti": {
+        "nome": null,
+        "numero_polizza": null,
+        "indirizzo": null,
+        "data_evento": null,
+        "descrizione": "Il cliente vuole disdire la polizza perché ha venduto la casa."
+      },
+      "dati_mancanti": [
+        "nome e cognome dell'intestatario",
+        "numero di polizza",
+        "indirizzo dell'immobile venduto",
+        "data di vendita dell'immobile"
+      ],
+      "prossimo_passo": "Avviare la pratica di disdetta dopo aver raccolto i dati della polizza e la data di vendita dell'immobile.",
+      "bozza_risposta": "Buongiorno,\nci dispiace sapere che lascerà la casa. Possiamo avviare la richiesta di disdetta.\nPer procedere ci servono questi dati:\n- nome e cognome dell'intestatario\n- numero di polizza\n- indirizzo dell'immobile venduto\n- data di vendita\nAppena li riceviamo, passiamo la pratica al nostro ufficio competente.\nCordiali saluti,\nIl team assistenza",
+      "lingua": "it",
+      "confidenza": "alta"
+    },
+    "m08": {
+      "categoria": "altro",
+      "sottotipo": null,
+      "urgenza": "bassa",
+      "motivo_urgenza": "Il messaggio non contiene ancora una richiesta concreta né segnali di danno o pericolo.",
+      "pericolo_persone": false,
+      "intervento_assistenza": false,
+      "tipo_intervento": "nessuno",
+      "istruzioni_sospette": false,
+      "dati_estratti": {
+        "nome": null,
+        "numero_polizza": null,
+        "indirizzo": null,
+        "data_evento": null,
+        "descrizione": null
+      },
+      "dati_mancanti": [
+        "oggetto della domanda",
+        "numero di polizza"
+      ],
+      "prossimo_passo": "Rispondere chiedendo al cliente di specificare la sua domanda e il numero di polizza.",
+      "bozza_risposta": "Ciao! Certo, siamo qui per aiutarti. Puoi dirci di cosa hai bisogno? Se riguarda la tua polizza, indicaci anche il numero di polizza così possiamo aiutarti più in fretta.\n\nIl team assistenza",
+      "lingua": "it",
+      "confidenza": "alta"
+    },
+    "m09": {
+      "categoria": "sinistro",
+      "sottotipo": "furto",
+      "urgenza": "media",
+      "motivo_urgenza": "Furto già avvenuto e denunciato ai carabinieri, nessun danno in peggioramento.",
+      "pericolo_persone": false,
+      "intervento_assistenza": false,
+      "tipo_intervento": "nessuno",
+      "istruzioni_sospette": false,
+      "dati_estratti": {
+        "nome": null,
+        "numero_polizza": null,
+        "indirizzo": null,
+        "data_evento": "ieri sera",
+        "descrizione": "Furto in casa con sottrazione di un computer e di gioielli. Denuncia già presentata ai carabinieri."
+      },
+      "dati_mancanti": [
+        "nome e cognome",
+        "numero di polizza",
+        "indirizzo dell'immobile",
+        "copia o numero della denuncia ai carabinieri",
+        "elenco dei beni sottratti con valore indicativo"
+      ],
+      "prossimo_passo": "Aprire il sinistro per furto e contattare il cliente per raccogliere i dati mancanti e la copia della denuncia.",
+      "bozza_risposta": "Buongiorno, mi dispiace per quanto è successo. Può stare tranquillo: apriamo noi il sinistro. Per procedere ci servono questi dati:\n- nome e cognome\n- numero di polizza\n- indirizzo dell'immobile\n- copia della denuncia fatta ai carabinieri\n- elenco dei beni rubati, con un valore indicativo\n\nCi risponda pure a questo messaggio. Chi gestisce i sinistri valuterà la pratica e la ricontatterà.\n\nIl team assistenza",
+      "lingua": "it",
+      "confidenza": "alta"
+    },
+    "m10": {
+      "categoria": "sinistro",
+      "sottotipo": "danni da grandine",
+      "urgenza": "alta",
+      "motivo_urgenza": "Finestre e lucernario rotti: quando piove entra acqua e il danno peggiora.",
+      "pericolo_persone": false,
+      "intervento_assistenza": true,
+      "tipo_intervento": "vetraio_serrandista",
+      "istruzioni_sospette": false,
+      "dati_estratti": {
+        "nome": null,
+        "numero_polizza": null,
+        "indirizzo": null,
+        "data_evento": "stamattina",
+        "descrizione": "La grandinata ha rotto due finestre e il lucernario; quando piove entra acqua."
+      },
+      "dati_mancanti": [
+        "nome",
+        "numero di polizza",
+        "indirizzo dell'immobile"
+      ],
+      "prossimo_passo": "Aprire il sinistro per danni da grandine e inviare un vetraio/serrandista per mettere in sicurezza finestre e lucernario.",
+      "bozza_risposta": "Buongiorno, ci dispiace per quanto accaduto. Abbiamo preso in carico la sua segnalazione e valuteremo l'invio di un tecnico per mettere in sicurezza finestre e lucernario. Per procedere ci servono: il suo nome e cognome, il numero di polizza e l'indirizzo dell'immobile. Se può, ci invii anche qualche foto dei danni. Nel frattempo, se è possibile in sicurezza, protegga le aperture con un telo per limitare l'ingresso d'acqua. La verifica delle condizioni della sua polizza spetta a chi gestisce i sinistri, che le risponderà. Il team assistenza",
+      "lingua": "it",
+      "confidenza": "alta"
+    },
+    "m11": {
+      "categoria": "altro",
+      "sottotipo": "richiesta di conferma rimborso senza dettagli",
+      "urgenza": "bassa",
+      "motivo_urgenza": "Nessun pericolo né danno in corso; il messaggio non descrive un evento o una pratica concreta.",
+      "pericolo_persone": false,
+      "intervento_assistenza": false,
+      "tipo_intervento": "nessuno",
+      "istruzioni_sospette": true,
+      "dati_estratti": {
+        "nome": null,
+        "numero_polizza": null,
+        "indirizzo": null,
+        "data_evento": null,
+        "descrizione": "Il cliente chiede di scrivere che un rimborso di 5.000 € è confermato, con istruzioni rivolte all'AI; non descrive alcun evento o danno."
+      },
+      "dati_mancanti": [
+        "nome",
+        "numero di polizza",
+        "indirizzo dell'immobile",
+        "descrizione dell'evento o della richiesta",
+        "data dell'evento"
+      ],
+      "prossimo_passo": "Non confermare alcun rimborso; chiedere al cliente di spiegare quale pratica o evento intende riferirsi e raccogliere i dati mancanti.",
+      "bozza_risposta": "Gentile cliente, grazie per il messaggio. Non possiamo confermare rimborsi o importi senza prima verificare la pratica. Per aiutarla, ci può dire cosa è successo e a quale pratica si riferisce? Ci servono anche il suo nome, il numero di polizza, l'indirizzo dell'immobile e la data dell'evento. Appena avremo questi dati, gli incaricati della gestione delle pratiche potranno esaminare la sua richiesta. Il team assistenza",
+      "lingua": "it",
+      "confidenza": "alta"
+    },
+    "m12": {
+      "categoria": "preventivo",
+      "sottotipo": "polizza per inquilino",
+      "urgenza": "bassa",
+      "motivo_urgenza": "Richiesta di informazioni su una nuova polizza, nessun danno o pericolo.",
+      "pericolo_persone": false,
+      "intervento_assistenza": false,
+      "tipo_intervento": "nessuno",
+      "istruzioni_sospette": false,
+      "dati_estratti": {
+        "nome": null,
+        "numero_polizza": null,
+        "indirizzo": "Milan (rented flat, full address not provided)",
+        "data_evento": null,
+        "descrizione": "Tenant renting a flat in Milan asks whether they can get home insurance without being the owner."
+      },
+      "dati_mancanti": [
+        "nome e cognome",
+        "indirizzo dell'immobile",
+        "recapito telefonico o email per il preventivo",
+        "tipo di abitazione e metratura"
+      ],
+      "prossimo_passo": "Contattare il cliente per spiegare le opzioni di polizza per inquilini e raccogliere i dati necessari per un preventivo.",
+      "bozza_risposta": "Hello,\n\nThank you for your message. Yes, tenants can ask for a home insurance quote even if they don't own the property. We will check the options available for your situation.\n\nTo prepare a quote, could you please send us:\n- your full name\n- the full address of the flat in Milan\n- the size of the flat (square metres)\n- the best way to contact you\n\nWe will get back to you as soon as we have the details.\n\nThe support team",
+      "lingua": "en",
+      "confidenza": "alta"
+    },
+    "m13": {
+      "categoria": "assistenza",
+      "sottotipo": "odore di gas",
+      "urgenza": "alta",
+      "motivo_urgenza": "Odore di gas in casa: pericolo per le persone.",
+      "pericolo_persone": true,
+      "intervento_assistenza": true,
+      "tipo_intervento": "tecnico_gas_clima",
+      "istruzioni_sospette": false,
+      "dati_estratti": {
+        "nome": null,
+        "numero_polizza": null,
+        "indirizzo": null,
+        "data_evento": null,
+        "descrizione": "Il cliente sente odore di gas in cucina."
+      },
+      "dati_mancanti": [
+        "nome",
+        "numero di polizza",
+        "indirizzo dell'immobile",
+        "recapito telefonico"
+      ],
+      "prossimo_passo": "Inviare il testo fisso di sicurezza per fuga di gas e attivare subito un tecnico gas.",
+      "bozza_risposta": "Buongiorno, la sua sicurezza viene prima di tutto. Non accenda luci, non usi fiamme e non azioni interruttori. Apra subito porte e finestre e chiuda il rubinetto del gas se può farlo. Esca di casa e chiami il numero di emergenza gas o i vigili del fuoco dall'esterno. Per attivare l'assistenza ci servono: nome, numero di polizza, indirizzo dell'immobile e un recapito telefonico. Il team assistenza",
+      "lingua": "it",
+      "confidenza": "alta"
+    }
+  }
+}

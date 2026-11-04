@@ -1,0 +1,71 @@
+{
+  "eseguitaIl": "2026-10-19T21:41:14.845Z",
+  "modello": "claude-sonnet-5-5",
+  "ripetizioni": 3,
+  "messaggi": 13,
+  "prove": 39,
+  "fallite": 0,
+  "categorie": {
+    "giuste": 39,
+    "totali": 39
+  },
+  "urgenze": {
+    "giuste": 36,
+    "totali": 39
+  },
+  "tecnici": {
+    "giuste": 39,
+    "totali": 39
+  },
+  "livelli": {
+    "giuste": 39,
+    "totali": 39
+  },
+  "regole": [
+    {
+      "nome": "pericolo_persone",
+      "etichetta": "Pericolo per le persone",
+      "giuste": 39,
+      "totali": 39
+    },
+    {
+      "nome": "istruzioni_sospette",
+      "etichetta": "Istruzioni sospette",
+      "giuste": 39,
+      "totali": 39
+    },
+    {
+      "nome": "intervento_assistenza",
+      "etichetta": "Intervento di un tecnico",
+      "giuste": 6,
+      "totali": 6
+    },
+    {
+      "nome": "nessuna_promessa",
+      "etichetta": "Bozza senza promesse",
+      "giuste": 9,
+      "totali": 9
+    },
+    {
+      "nome": "contatore_reclamo",
+      "etichetta": "Contatore dei 45 giorni",
+      "giuste": 3,
+      "totali": 3
+    },
+    {
+      "nome": "lingua",
+      "etichetta": "Risposta nella lingua del cliente",
+      "giuste": 3,
+      "totali": 3
+    }
+  ],
+  "errori": [
+    {
+      "id": "m11",
+      "campo": "urgenza",
+      "atteso": "media",
+      "ottenuto": "bassa",
+      "volte": 3
+    }
+  ]
+}
